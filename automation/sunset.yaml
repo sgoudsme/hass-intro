@@ -1,0 +1,9 @@
+- alias: turn off switch wen sun is set
+  trigger:
+    platform: sun
+    event: sunset
+    offset: "-00:21:00"
+  action:
+    service: input_boolean.turn_off
+    entity_id: input_boolean.sunswitch
+

@@ -1,0 +1,3 @@
+sunswitch:
+  name: "turn off when sun is set"
+  initial: on
