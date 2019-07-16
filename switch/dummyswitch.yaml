@@ -1,5 +1,5 @@
 - platform: mqtt
   command_topic: "testswitch1/command"
   state_topic: "testswitch1/state"
-  state_on: "on"
-  state_off: "off"
+  payload_on: "on"
+  payload_off: "off"
